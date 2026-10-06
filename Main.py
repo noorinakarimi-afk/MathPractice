@@ -14,13 +14,28 @@ preferred_operation = input(" 1 - Addition"
                             " 2 - Subtraction"
                             " 3 - Multiplication"
                             " 4 - Division: ")
-#Create random
+
+#Loop and create random numbers
 x = random.randint(lowest_number, highest_number)
 y = random.randint(lowest_number, highest_number)
-x = x * y
-answer = x//y
-print(f"{x} {preferred_operation} {y}?: ")
-if
+#Give problems to solve
+if preferred_operation == "1":
+    preferred_operation = "Addition"
+for question in range(1, number_of_questions + 1):
+    print(f"question {question}: {x} + {y} = ?")
+    user_answer = int(input())
+    
+    if user_answer == answer:
+        print("Good job!")
+    else:
+        print("Wrong! The answer is", answer)
 
-print(f"{x} {preferred_operation} {y} = {answer}")
+
+
+
+
+
+
+
+
 
