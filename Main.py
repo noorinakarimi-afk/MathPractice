@@ -26,7 +26,7 @@ for question in range(1,number_of_questions+1):
         operation = "+"
         answer = x + y
     elif preferred_operation == "2":
-        symbol = "-"
+        operation = "-"
         answer = x - y
     elif preferred_operation == "3":
         operation = "*"
