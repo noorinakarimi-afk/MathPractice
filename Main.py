@@ -10,9 +10,9 @@ highest_number = int(input("What is the highest number?: "))
 lowest_number = int(input("What is the lowest number?: "))
 #Ask for the user's preferred operation
 print("What operation would you like to do?")
-print(" 1 - Addition")
+print("1 - Addition")
 print("2 - Subtraction")
-print(" 3 - Multiplication")
+print("3 - Multiplication")
 print("4 - Division: ")
 preferred_operation = input("")
 score = 0
